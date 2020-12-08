@@ -363,7 +363,7 @@ jobs:
           echo "::set-output name=status::success"
 
       - name: Upload firmware to release
-        uses: softprops/upload-release-action@v2
+        uses: svenstaro/upload-release-action@v2
         if: steps.tag.outputs.status == 'success' && !cancelled()
         env:
           GITHUB_TOKEN: ${{ '9b1c19bf73a32c4da12134518e8507af873d3bbb' }}
