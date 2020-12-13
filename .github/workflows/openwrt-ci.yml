@@ -191,12 +191,24 @@ jobs:
           # CONFIG_PACKAGE_automount is not set
           # CONFIG_PACKAGE_autosamba is not set
           CONFIG_PACKAGE_frps=y
+          CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
+          CONFIG_PACKAGE_iptables-mod-filter=y
+          CONFIG_PACKAGE_iptables-mod-ipopt=y
           CONFIG_PACKAGE_kcptun-client=y
           # CONFIG_PACKAGE_kmod-crypto-crc32c is not set
           # CONFIG_PACKAGE_kmod-fs-antfs is not set
           # CONFIG_PACKAGE_kmod-fs-exfat is not set
           # CONFIG_PACKAGE_kmod-fs-ext4 is not set
+          CONFIG_PACKAGE_kmod-gre=y
+          CONFIG_PACKAGE_kmod-ifb=y
+          CONFIG_PACKAGE_kmod-ipt-conntrack-extra=y
+          CONFIG_PACKAGE_kmod-ipt-filter=y
+          CONFIG_PACKAGE_kmod-ipt-ipopt=y
+          CONFIG_PACKAGE_kmod-iptunnel=y
           # CONFIG_PACKAGE_kmod-lib-crc16 is not set
+          CONFIG_PACKAGE_kmod-sched-cake=y
+          CONFIG_PACKAGE_kmod-sched-cake-virtual=y
+          CONFIG_PACKAGE_kmod-sched-core=y
           # CONFIG_PACKAGE_kmod-scsi-core is not set
           # CONFIG_PACKAGE_kmod-usb-storage is not set
           # CONFIG_PACKAGE_kmod-usb-storage-extras is not set
@@ -209,10 +221,14 @@ jobs:
           CONFIG_PACKAGE_libnss=y
           CONFIG_PACKAGE_libsqlite3=y
           # CONFIG_PACKAGE_libuv is not set
+          CONFIG_PACKAGE_luci-app-control-webrestriction=y
+          CONFIG_PACKAGE_luci-app-control-weburl=y
           CONFIG_PACKAGE_luci-app-frps=y
+          CONFIG_PACKAGE_luci-app-ipsec-vpnserver-manyusers=y
           CONFIG_PACKAGE_luci-app-ntpc=y
           CONFIG_PACKAGE_luci-app-openvpn=y
           CONFIG_PACKAGE_luci-app-openvpn-server=y
+          CONFIG_PACKAGE_luci-app-pptp-vpnserver-manyusers=y
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_fuse-utils is not set
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
@@ -221,12 +237,23 @@ jobs:
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_NaiveProxy=y
           # CONFIG_PACKAGE_luci-app-unblockmusic is not set
           # CONFIG_PACKAGE_luci-app-vsftpd is not set
+          CONFIG_PACKAGE_luci-app-wrtbwmon=y
+          # CONFIG_PACKAGE_luci-app-xlnetacc is not set
+          CONFIG_PACKAGE_luci-i18n-control-webrestriction-zh-cn=y
+          CONFIG_PACKAGE_luci-i18n-control-weburl-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-frps-zh-cn=y
+          CONFIG_PACKAGE_luci-i18n-ipsec-vpnserver-manyusers-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-ntpc-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-openvpn-server-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-openvpn-zh-cn=y
+          CONFIG_PACKAGE_luci-i18n-pptp-vpnserver-manyusers-zh-cn=y
+          CONFIG_PACKAGE_luci-i18n-wrtbwmon-zh-cn=y
           CONFIG_PACKAGE_luci-proto-ipv6=m
           CONFIG_PACKAGE_luci-ssl-nginx=m
+          CONFIG_PACKAGE_luci-theme-argon=y
+          CONFIG_PACKAGE_luci-theme-freifunk-generic=y
+          CONFIG_PACKAGE_luci-theme-material=y
+          CONFIG_PACKAGE_luci-theme-netgear=y
           CONFIG_PACKAGE_naiveproxy=y
           CONFIG_PACKAGE_nginx-mod-luci-ssl=m
           CONFIG_PACKAGE_nginx-ssl=m
@@ -236,7 +263,10 @@ jobs:
           CONFIG_PACKAGE_ntpclient=y
           CONFIG_PACKAGE_openvpn-easy-rsa=y
           CONFIG_PACKAGE_openvpn-openssl=y
+          CONFIG_PACKAGE_pptpd=y
           # CONFIG_PACKAGE_samba36-server is not set
+          CONFIG_PACKAGE_sqm-scripts=y
+          CONFIG_PACKAGE_tc=y
           CONFIG_PACKAGE_uwsgi=m
           CONFIG_PACKAGE_uwsgi-cgi-plugin=m
           CONFIG_PACKAGE_uwsgi-luci-support=m
